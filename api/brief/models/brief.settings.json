@@ -131,6 +131,11 @@
     },
     "uwagi": {
       "type": "richtext"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "briefs"
     }
   }
 }
