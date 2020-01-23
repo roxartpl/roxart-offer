@@ -1,0 +1,136 @@
+{
+  "connection": "default",
+  "collectionName": "briefs",
+  "info": {
+    "name": "Brief"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "wycena_kodera": {
+      "type": "richtext"
+    },
+    "wycena_grafika": {
+      "type": "richtext"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "do_wyceny",
+        "zwrotka",
+        "wycenione"
+      ],
+      "default": "do_wyceny"
+    },
+    "status_kodera": {
+      "type": "enumeration",
+      "enum": [
+        "nie_wycenione",
+        "wycenione",
+        "zwrot_do_handlowca"
+      ],
+      "default": "nie_wycenione"
+    },
+    "status_grafika": {
+      "type": "enumeration",
+      "enum": [
+        "nie_wycenione",
+        "wycenione",
+        "zwrot_do_handlowca"
+      ],
+      "default": "nie_wycenione"
+    },
+    "adres_url": {
+      "type": "string"
+    },
+    "czym_zajmuje": {
+      "type": "richtext"
+    },
+    "branza": {
+      "type": "richtext"
+    },
+    "ile_lat": {
+      "type": "richtext"
+    },
+    "jakie_produkty": {
+      "type": "richtext"
+    },
+    "kim_sa_klienci": {
+      "type": "richtext"
+    },
+    "konkurenci": {
+      "type": "richtext"
+    },
+    "budzet": {
+      "type": "richtext"
+    },
+    "czas_realizacji": {
+      "type": "richtext"
+    },
+    "logo": {
+      "type": "richtext"
+    },
+    "zalozenia": {
+      "type": "richtext"
+    },
+    "charakter": {
+      "type": "richtext"
+    },
+    "czy_cms": {
+      "type": "richtext"
+    },
+    "jezyk_podstawowy": {
+      "type": "richtext"
+    },
+    "jezyki_dodatkowe": {
+      "type": "richtext"
+    },
+    "podstrony_menu": {
+      "type": "richtext"
+    },
+    "liczba_podstron": {
+      "type": "richtext"
+    },
+    "kolorystyka": {
+      "type": "richtext"
+    },
+    "przyklady_stron": {
+      "type": "richtext"
+    },
+    "elementy": {
+      "type": "richtext"
+    },
+    "zdjecia": {
+      "type": "richtext"
+    },
+    "teksty": {
+      "type": "richtext"
+    },
+    "elementy_zewnetrzne": {
+      "type": "richtext"
+    },
+    "zaawansowana_funkcjonalnosc": {
+      "type": "richtext"
+    },
+    "czy_domena": {
+      "type": "richtext"
+    },
+    "czy_hosting": {
+      "type": "richtext"
+    },
+    "uwagi": {
+      "type": "richtext"
+    }
+  }
+}
