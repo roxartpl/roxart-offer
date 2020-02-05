@@ -5,12 +5,12 @@
       "connector": "bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "${process.env.DATABASE_HOST}",
-        "port": "${process.env.DATABASE_PORT}",
-        "database": "${process.env.DATABASE_NAME}",
-        "username": "${process.env.DATABASE_USERNAME}",
-        "password": "${process.env.DATABASE_PASSWORD}",
-        "ssl": true
+        "host": "pgsql43.mydevil.net",
+        "port": "5432",
+        "database": "p1316_rox_off",
+        "username": "p1316_rox_off",
+        "password": "2zPKWkA5ZDFjl4ih0C2T",
+        "ssl": false
       },
       "options": {}
     }
